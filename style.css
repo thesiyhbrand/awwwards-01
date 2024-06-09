@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Mounument;
+  src: url(./Assets/Fonts/MonumentExtended-Regular.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mounument;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  background-color: #000;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  justify-content: start;
+  gap: 2vw;
+  z-index: 9;
+}
+
+.text-loader {
+  color: #fff;
+  font-size: 2vw;
+  /* opacity: 0; */
+  font-family: Mounument;
+}
+
+.text-23 {
+  margin-left: 15vw;
+}
+
+.text-63 {
+  margin-left: 15vw;
+}
+
+.text-97 {
+  margin-left: 10vw;
+}
+.text-100 {
+  margin-left: 0vw;
+}
+
+/* -----------loader-end------ */
+
+/* ---------fixed paragraph start--------- */
+
+.fixed-p {
+  position: fixed;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.flex-p-content {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.cntr-p {
+  color: #fff;
+  text-align: center;
+  z-index: 999;
+  font-family: Mounument;
+  font-size: 1.2vw;
+}
+
+.cntr-p2 {
+  color: #fff;
+  text-align: center;
+  z-index: 999;
+  font-family: Mounument;
+  font-size: 1.2vw;
+}
+
+.nav {
+  margin-top: 3vh;
+  gap: 2vw;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  z-index: 999;
+  font-family: Mounument;
+  font-size: 1.2vw;
+}
+
+/* ---------fixed paragraph end--------- */
